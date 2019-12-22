@@ -1,0 +1,83 @@
+\documentclass{article}
+
+\usepackage{amscd} %for square diagram
+\usepackage{amsmath} %for \DeclareMathOperator, some symbols and mathematical formula
+\usepackage{amssymb} %for \mathbb
+\usepackage{mathrsfs} %for \mathscr
+\usepackage{theorem} %for \theorembodyfont
+\usepackage[dvipdsmx]{pict2e} %for attaching pictures
+\usepackage[dvipdfmx]{graphicx} %for attaching pictures
+\usepackage[abs]{overpic} %to use grid on pictures
+
+\theorembodyfont{\normalfont} %for normalfont theorems
+\newtheorem{proof}{Proof}[section]
+\newtheorem{defi}{Definition}[section]
+\newtheorem{ex}[defi]{Example}
+\newtheorem{prop}[defi]{Proposition}
+\newtheorem{lem}[defi]{Lemma}
+\newtheorem{thm}[defi]{Theorem}
+\newtheorem{cor}[defi]{Corollary}
+\newtheorem{rem}[defi]{Remark}
+
+\renewcommand{\theproof}{} %to forget the numbers of proof
+\renewcommand{\labelenumi}{\rm (\arabic{enumi})} %to change items
+
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Ad}{Ad}
+\DeclareMathOperator{\ad}{ad}
+\DeclareMathOperator{\Cl}{Cl}
+\DeclareMathOperator{\codim}{codim}
+\DeclareMathOperator{\diver}{div}
+\DeclareMathOperator{\End}{End}
+\DeclareMathOperator{\Ext}{Ext}
+\DeclareMathOperator{\Gal}{Gal}
+\DeclareMathOperator{\grad}{grad}
+\DeclareMathOperator{\Grass}{Grass}
+\DeclareMathOperator{\Hilb}{Hilb}
+\DeclareMathOperator{\Hom}{Hom}
+\DeclareMathOperator{\Ima}{Im}
+\DeclareMathOperator{\Iso}{Iso}
+\DeclareMathOperator{\Inte}{Int}
+\DeclareMathOperator{\Ker}{Ker}
+\DeclareMathOperator{\Lie}{Lie}
+\DeclareMathOperator{\Map}{Map}
+\DeclareMathOperator{\Proj}{Proj}
+\DeclareMathOperator{\Real}{Re}
+\DeclareMathOperator{\Res}{Res}
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\rot}{rot}
+\DeclareMathOperator{\sgn}{sgn}
+\DeclareMathOperator{\Spec}{Spec}
+\DeclareMathOperator{\supp}{supp}
+\DeclareMathOperator{\Tor}{Tor}
+\DeclareMathOperator{\Vect}{Vect}
+\DeclareMathOperator{\id}{id}
+\DeclareMathOperator{\ch}{ch}
+\DeclareMathOperator{\td}{td}
+
+\def\n{\mathbb{N}}
+\def\z{\mathbb{Z}}
+\def\q{\mathbb{Q}}
+\def\r{\mathbb{R}}
+\def\c{\mathbb{C}}
+\def\h{\mathbb{H}}
+\def\o{\mathbb{O}}
+\def\f{\mathbb{F}}
+
+\def\e{\varepsilon}
+
+\newcommand{\qed}{\hfill$\blacksquare$\par} %for Q.E.D.
+
+\title{Title}
+\author{author}
+
+\begin{document}
+	
+	\maketitle
+	\begin{abstract}
+		abstract...
+	\end{abstract}
+
+	content...
+	
+\end{document}
